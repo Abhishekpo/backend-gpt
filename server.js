@@ -36,5 +36,5 @@ const connectDB = async()=>{
 }
 
 app.get("/test",async (req,res)=>{
-  res.json({message:"Hello from the test!"})
+  res.json({message:"Hello from the test 2ndtime!"})
 });
