@@ -34,3 +34,7 @@ const connectDB = async()=>{
     console.log("Failed to connect with Db", err)
   }
 }
+
+app.get("/test",async (req,res)=>{
+  res.json({message:"Hello from the test!"})
+});
